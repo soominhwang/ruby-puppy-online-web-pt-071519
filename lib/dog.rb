@@ -21,7 +21,6 @@ class Dog
       all_names << dog
     end
     return all_names.join
-    
   end
 
   def save
