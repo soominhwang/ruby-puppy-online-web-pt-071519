@@ -16,8 +16,10 @@ class Dog
   end
 
   def print_all
+
   end
 
   def save
+    
   end
 end
