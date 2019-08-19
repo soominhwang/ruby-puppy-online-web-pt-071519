@@ -16,10 +16,14 @@ class Dog
   end
 
   def print_all
-
+    all_names = []
+    @@all.each do |dog|
+      all_names << dog
+    end
+    return all_names
   end
 
   def save
-    
+
   end
 end
