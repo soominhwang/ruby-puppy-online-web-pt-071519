@@ -19,12 +19,6 @@ class Dog
   end
 
   def self.print_all
-    # all_names = []
-    # @@all.each do |name|
-    #   all_names << name
-    # end
-    # puts all_names
-
     @@all.each do |dog|
       puts dog.name
     end
