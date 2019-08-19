@@ -20,7 +20,8 @@ class Dog
     @@all.each do |dog|
       all_names << dog
     end
-    return all_names
+    return all_names.join
+    
   end
 
   def save
