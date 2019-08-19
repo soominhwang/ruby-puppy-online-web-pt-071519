@@ -23,7 +23,7 @@ class Dog
     @@all.each do |name|
       all_names << name
     end
-    puts all_names.join
+    puts all_names
   end
 
   def save
